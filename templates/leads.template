@@ -1,0 +1,4 @@
+<div class="item">
+    <%= item.closed %> - <a href="#/lead/<%= id %>"><%= item.lastName %>, <%= item.firstName %></a><span class="rightAlign"><%= item.created %></span>
+</div>
+

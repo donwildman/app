@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find Me a Home</title>
+    <link rel="stylesheet"  href="css/jquery.mobile-1.2.1.min.css" />
+    <link rel="stylesheet"  href="css/findMeAHome.min.css" />
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/backend.js"></script>
+    <script src="js/jqm-docs.js"></script>
+    <script src="js/jquery.mobile-1.2.1.min.js"></script>
+
+</head>
+
+<body>
+<div id="home" data-role="page"  data-theme="b">
+    <div data-role="header"><h1>Find Me a Home</h1></div>
+    <div data-role="content">
+        <h2>Your Leads:</h2>
+        <ul data-role="listview" data-inset="true" data-filter="true" id="leadsList">
+
+        </ul>
+    </div>
+    <div data-role="footer">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#" data-icon="home">Log Out</a></li>
+                <li><a href="#" data-icon="info" class="ui-btn-active">Info</a></li>
+                <li><a href="#" data-icon="gear">Setup</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div>
+<div id="lead-items" data-role="page" data-add-back-btn="true" data-theme="b">
+    <div data-role="header"><h1></h1></div>
+    <div data-role="content" id="leadDetail"></div>
+    <div data-role="footer">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#" data-icon="home">Log Out</a></li>
+                <li><a href="#" data-icon="info" class="ui-btn-active">Info</a></li>
+                <li><a href="#" data-icon="gear">Setup</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div>
+</body>
+</html>

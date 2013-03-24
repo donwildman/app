@@ -1,0 +1,115 @@
+<div class="item-detail">
+    <div class="back-link"><a href="#/">&laquo; Back to Leads</a></div>
+        <div>
+            <h3>Personal Details</h3>
+            <p>
+                <span class="detailLabel">Name:</span>
+                <%= item.lastName %>, <%= item.firstName %>
+                <br/>
+
+                <span class="detailLabel">Date:</span>
+                <%= item.created %>
+                <br/>
+
+                <span class="detailLabel">Email:</span>
+                <%= item.email %>
+                <br/>
+
+                <span class="detailLabel">Ref. No.:</span>
+                <%= item.referenceNo %>
+                <br/>
+
+                <span class="detailLabel">Contact:</span>
+                <%= item.contact %>
+                <br/>
+
+                <span class="detailLabel">Cell:</span>
+                <%= item.cell %>
+                <br/>
+
+                <span class="detailLabel">Fax:</span>
+                <%= item.fax %>
+            </p>
+
+        </div>
+        <div>
+            <h3>Request Details</h3>
+            <p>
+
+                <span class="detailLabel">Max Price:</span>
+                <%= item.maxPrice %>
+                <br/>
+
+                <span class="detailLabel">Pre-approved finance:</span>
+                <%= item.preApproved%>
+                <br/>
+
+                <span class="detailLabel">Looking to:</span>
+
+                <%= item.buy %>
+                <%= item.rent %>
+                <%= item.furnished %>
+                <%= item.unFurnished %>
+
+                <br/>
+
+
+                <span class="detailLabel">Selling own property:</span>
+                <%= item.isSelling %>
+                <br/>
+
+                <span class="detailLabel">Looking for:</span>
+
+
+                <%= item.house_ok %>,
+                <%= item.flat_ok %>,
+                <%= item.complex_ok %>,
+                <%= item.security_estate_ok %>,
+                <%= item.golf_ok %>,
+                <%= item.farm_ok %>,
+                <%= item.vacant_ok %>,
+                <%= item.retail_ok %>,
+                <%= item.industrial_ok %>
+                <br/>
+
+
+
+                <span class="detailLabel">Bedrooms:</span>
+                <%= item.bedrooms %>
+                <br/>
+
+                <span class="detailLabel">Bathrooms:</span>
+                <%= item.bathrooms %>
+                <br/>
+            </p>
+        </div>
+        <div>
+            <h3>Location</h3>
+            <p>
+                <span class="detailLabel">City:</span>
+
+                <%= item.city %>
+                <br/>
+
+                <span class="detailLabel">Suburbs:</span>
+                <%= item.suburbs %>,
+                <br/>
+
+                <span class="detailLabel">Include Surrounding Areas:</span>
+                <%= item.includeSurrounding%>
+                <br/>
+
+            </p>
+        </div>
+        <div>
+            <h3>Extras</h3>
+            <p>
+                <span class="detailLabel">Notes:</span>
+
+                <%= item.otherCriteria %>
+
+            </p>
+
+        </div>
+    <div class="back-link"><a href="#/">&laquo; Back to Leads</a></div>
+</div>
